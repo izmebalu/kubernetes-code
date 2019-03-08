@@ -4,7 +4,8 @@ metadata:
   name: sample-pod 
 spec: 
   containers:
-    - name: nginx
-      image: nginx
-      ports:
-      -containerport: 80  
+  - name: nginx
+    image: nginx
+    ports:
+  - containerport: 80 
+  - nodeport: 8080 
