@@ -13,7 +13,7 @@ spec:
         ver: "1.0"
     spec:
       containers:
-        - name: simple-pod
-          image: nginx
-          port:
-            - containerPort: 80
+      - name: simple-pod
+        image: nginx
+        ports:
+        - containerPort: 80
